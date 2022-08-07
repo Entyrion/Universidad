@@ -1,0 +1,35 @@
+/* Etiquetas */
+body{
+    background-color: rgb(209, 209, 209);
+}
+p{
+    font-size: 15pt;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h6{
+    font-size: 20pt;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Classes */
+.ar:hover{
+    color: rgb(220, 0, 0);
+}
+.OFlink{
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.OFlink:hover{
+    color: rgb(220, 0, 0);
+    text-decoration: overline;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.tit{
+    font-size: 30pt;
+}
+.tb{
+    color: #fff;
+}

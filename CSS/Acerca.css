@@ -1,0 +1,23 @@
+/* Etiquetas */
+body{
+    background-color: rgb(209, 209, 209);
+}
+img{
+    max-width: 100%;
+}
+
+/* Classes */
+.tit{
+    font-size: 30pt;
+}
+.ar:hover{
+    color: rgb(220, 0, 0);
+}
+.tb{
+    color: #fff;
+}
+
+/* IDs */
+#imgint{
+    max-height: 500px;
+}

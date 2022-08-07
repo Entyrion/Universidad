@@ -1,0 +1,112 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Etiquetas */
+header{
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(138,255,208,1) 52%, rgba(90,255,189,1) 100%);;
+    color: #000;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+body{
+    background-color: rgb(209, 209, 209);
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+}
+li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+a:hover{
+    color: rgb(220, 0, 0);
+}
+h1::first-line{
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size: 15pt;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Clases */
+.ar:hover{
+    color: rgb(220, 0, 0);
+}
+.logo{
+    width: 15%;
+    height: auto;
+}
+.alogo{
+    width: 10%;
+}
+.horizontal{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+.autom{
+    margin: auto;
+}
+.menuimg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    animation-name: Slider;
+    animation-duration: 9s;
+    animation-delay: 3s;
+    animation-fill-mode: infinite;   
+}
+.tit{
+    font-size: 30pt;
+}
+.tb{
+    color: #fff;
+}
+
+/* IDs */
+#img50{
+    max-width: 50%;
+}
+#slide{
+    width: 100%;
+    width: 100%;
+}
+
+/* Animaciones */
+@keyframes Slider{
+    0%{
+        transform: translateX(0);
+    }
+    33%{
+        transform: translateX(-100%);
+    }
+    66%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}

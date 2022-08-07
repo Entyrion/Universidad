@@ -1,0 +1,12 @@
+<?php
+session_start();
+
+if(!isset($_SESSION['user_id'])){
+    header('Location: login.php');
+    exit();
+} else {
+    // Show users the page!
+}
+?>
+
+//codigo para restringir el acceso a la pagina si es que no esta logeado.

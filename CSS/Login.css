@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(90deg, rgba(89,185,168,1) 0%, rgba(165,166,233,1) 50%, rgba(97,211,222,1) 100%);
+}
+
+.login{
+    background: #70a1ff;
+    text-align: center;
+    margin-right: auto;
+    margin-top: 180px;
+    margin-left: 550px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+#registro{
+    padding-top: 10px;
+}
+#registro a{
+    color: black;
+    text-decoration: none;
+}

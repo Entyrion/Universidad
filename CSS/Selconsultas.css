@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(209, 209, 209);
+}
+
+.tit{
+    font-size: 30pt;
+}
+.ar:hover{
+    color: rgb(220, 0, 0);
+}
+.btnsr:hover{
+    background-color: rgb(220, 0, 0);
+}
+.tb{
+    color: #fff;
+}
+.espacio{
+    height: 10%;
+}
+p{
+    font-size: 15pt;
+    font-family: 'Source Sans Pro', sans-serif;
+}
